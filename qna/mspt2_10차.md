@@ -255,4 +255,4 @@ spec:
   - [Define a TCP liveness probe](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-tcp-liveness-probe)를 보시면 두 가지를 다 설정한 샘플이 있습니다.
   - readiness probe는 시작단계에만 관여하고, 그 이후에는 liveness probe가 체크를 합니다.
 
-- 
+- Selector를 정의하고 사용하는 목적이  특정 pod로 서비스를 지정하기 위해 사용하는건지요?
